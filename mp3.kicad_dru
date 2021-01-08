@@ -1,0 +1,6 @@
+(version 0.1)
+
+(rule "zoneDistance"
+	(constraint clearance (min 0.5mm))
+	(condition "A.Type == 'zone' && B.Type == 'zone'")
+)
